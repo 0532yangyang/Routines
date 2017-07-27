@@ -1,0 +1,12 @@
+步骤：
+ 1. 构造liblinear格式的dataset： 运行dataset2PRAFormat.sh
+ 2. 运行：eval_by_c.sh liblinear dataset output_dir，得到MAP值
+
+
+dataset2PRAFormat.sh 原始数据集文件夹 输出数据集文件夹 最大路径长度 [-E] [-B]
+-E: if there is entities in path, default=False。
+-B: feature value is set to binary or path count, default=False。
+
+
+
+
